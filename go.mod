@@ -1,3 +1,3 @@
-module github.com/iKOPKACtraxa/testmod/v2
+module github.com/iKOPKACtraxa/testmod
 
 go 1.15
