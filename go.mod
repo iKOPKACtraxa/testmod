@@ -1,3 +1,3 @@
-module github.com/robteix/testmod
+module github.com/iKOPKACtraxa/testmod
 
 go 1.15
