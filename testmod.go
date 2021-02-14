@@ -1,8 +1,16 @@
-package testmod
+package main
 
-import "fmt"
+import (
+	"fmt"
 
-// Hi returns a friendly greeting
-func Hi(name string) string {
-	return fmt.Sprintf("Hi, %s", name)
+	"github.com/iKOPKACtraxa/testmod/v2"
+)
+
+func main() {
+	// fmt.Println(testmod.Hi("roberto"))
+	g, err := testmod.Hi("Roberto", "pt")
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(g)
 }
